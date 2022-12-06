@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/ch02.junit/pom.xml" />
         <option value="$PROJECT_DIR$/ch03.stub/pom.xml" />
         <option value="$PROJECT_DIR$/ch04.mockito/pom.xml" />
+        <option value="$PROJECT_DIR$/ch05.tdd/pom.xml" />
+        <option value="$PROJECT_DIR$/ch05.tdd.phase1/pom.xml" />
       </list>
     </option>
   </component>

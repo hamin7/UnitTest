@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ch02.junit" />
         <module name="bdd" />
         <module name="tdd" />
         <module name="ch03.stub" />
+        <module name="ch05.tdd.phase1" />
         <module name="ch04.mockito" />
+        <module name="ch05.tdd" />
+        <module name="ch02.junit" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +20,8 @@
       <module name="ch02.junit" target="17" />
       <module name="ch03.stub" target="17" />
       <module name="ch04.mockito" target="17" />
+      <module name="ch05.tdd" target="17" />
+      <module name="ch05.tdd.phase1" target="17" />
       <module name="tdd" target="17" />
     </bytecodeTargetLevel>
   </component>

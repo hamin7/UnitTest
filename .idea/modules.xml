@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/ch02.junit/ch02.junit.iml" filepath="$PROJECT_DIR$/ch02.junit/ch02.junit.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch03.stub/ch03.stub.iml" filepath="$PROJECT_DIR$/ch03.stub/ch03.stub.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch04.mockito/ch04.mockito.iml" filepath="$PROJECT_DIR$/ch04.mockito/ch04.mockito.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch05.tdd/ch05.tdd.iml" filepath="$PROJECT_DIR$/ch05.tdd/ch05.tdd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch05.tdd.phase1/ch05.tdd.phase1.iml" filepath="$PROJECT_DIR$/ch05.tdd.phase1/ch05.tdd.phase1.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch01.softwaretest/tdd/tdd.iml" filepath="$PROJECT_DIR$/ch01.softwaretest/tdd/tdd.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/unittest.iml" filepath="$PROJECT_DIR$/.idea/unittest.iml" />
     </modules>
