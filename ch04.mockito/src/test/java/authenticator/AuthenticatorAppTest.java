@@ -57,7 +57,7 @@ public class AuthenticatorAppTest {
         verify(authenticatorMock, atLeastOnce()).authenticateUser(username, password);
         verify(authenticatorMock, atLeast(1)).authenticateUser(username, password);
         verify(authenticatorMock, atMost(3)).authenticateUser(username, password);
-//        verify(authenticatorMock, never()).authenticateUser(username, password);    // fail
+//        verify(authenticatorMock, never()).authenticateUser(username, password);    // fail : 이미 위에서 세 번이나 호출함...
     }
 
     @Test
@@ -83,6 +83,7 @@ public class AuthenticatorAppTest {
         when(authenticatorMock.authenticateUser(username, password)).thenReturn(true);
         authenticatorApp.authenticate(username, password);
 
+        // 메서드 호출 순서 확인...
         InOrder inOrder = inOrder(authenticatorMock);
         inOrder.verify(authenticatorMock).foo();
         inOrder.verify(authenticatorMock).authenticateUser(username, password);

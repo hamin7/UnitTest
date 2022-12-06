@@ -6,6 +6,8 @@
         <option value="$PROJECT_DIR$/ch01.softwaretest/tdd/pom.xml" />
         <option value="$PROJECT_DIR$/ch01.softwaretest/bdd/pom.xml" />
         <option value="$PROJECT_DIR$/ch02.junit/pom.xml" />
+        <option value="$PROJECT_DIR$/ch03.stub/pom.xml" />
+        <option value="$PROJECT_DIR$/ch04.mockito/pom.xml" />
       </list>
     </option>
   </component>
