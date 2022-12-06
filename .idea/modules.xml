@@ -8,6 +8,10 @@
       <module fileurl="file://$PROJECT_DIR$/ch04.mockito/ch04.mockito.iml" filepath="$PROJECT_DIR$/ch04.mockito/ch04.mockito.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch05.tdd/ch05.tdd.iml" filepath="$PROJECT_DIR$/ch05.tdd/ch05.tdd.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch05.tdd.phase1/ch05.tdd.phase1.iml" filepath="$PROJECT_DIR$/ch05.tdd.phase1/ch05.tdd.phase1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch05.tdd.phase2/ch05.tdd.phase2.iml" filepath="$PROJECT_DIR$/ch05.tdd.phase2/ch05.tdd.phase2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch05.tdd.phase3/ch05.tdd.phase3.iml" filepath="$PROJECT_DIR$/ch05.tdd.phase3/ch05.tdd.phase3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch05.tdd.phase4/ch05.tdd.phase4.iml" filepath="$PROJECT_DIR$/ch05.tdd.phase4/ch05.tdd.phase4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch05.tdd.phase5/ch05.tdd.phase5.iml" filepath="$PROJECT_DIR$/ch05.tdd.phase5/ch05.tdd.phase5.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch01.softwaretest/tdd/tdd.iml" filepath="$PROJECT_DIR$/ch01.softwaretest/tdd/tdd.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/unittest.iml" filepath="$PROJECT_DIR$/.idea/unittest.iml" />
     </modules>

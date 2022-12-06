@@ -10,6 +10,10 @@
         <option value="$PROJECT_DIR$/ch04.mockito/pom.xml" />
         <option value="$PROJECT_DIR$/ch05.tdd/pom.xml" />
         <option value="$PROJECT_DIR$/ch05.tdd.phase1/pom.xml" />
+        <option value="$PROJECT_DIR$/ch05.tdd.phase2/pom.xml" />
+        <option value="$PROJECT_DIR$/ch05.tdd.phase3/pom.xml" />
+        <option value="$PROJECT_DIR$/ch05.tdd.phase4/pom.xml" />
+        <option value="$PROJECT_DIR$/ch05.tdd.phase5/pom.xml" />
       </list>
     </option>
   </component>

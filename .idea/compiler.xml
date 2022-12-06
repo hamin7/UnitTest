@@ -7,12 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bdd" />
+        <module name="ch05.tdd.phase2" />
         <module name="tdd" />
         <module name="ch03.stub" />
         <module name="ch05.tdd.phase1" />
         <module name="ch04.mockito" />
         <module name="ch05.tdd" />
+        <module name="ch05.tdd.phase4" />
+        <module name="ch05.tdd.phase3" />
         <module name="ch02.junit" />
+        <module name="ch05.tdd.phase5" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +26,10 @@
       <module name="ch04.mockito" target="17" />
       <module name="ch05.tdd" target="17" />
       <module name="ch05.tdd.phase1" target="17" />
+      <module name="ch05.tdd.phase2" target="17" />
+      <module name="ch05.tdd.phase3" target="17" />
+      <module name="ch05.tdd.phase4" target="17" />
+      <module name="ch05.tdd.phase5" target="17" />
       <module name="tdd" target="17" />
     </bytecodeTargetLevel>
   </component>
