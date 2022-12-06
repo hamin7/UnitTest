@@ -108,4 +108,51 @@ public class AirportTest {
             }
         }
     }
+
+    @DisplayName("Given there is a premium flight")
+    @Nested
+    class PremiumFlightTest {
+        private Flight premiumFlight;
+        private Passenger mike;
+        private Passenger james;
+
+        @BeforeEach
+        void setUp() {
+            premiumFlight = new PremiumFlight("3");
+            mike = new Passenger("Mike", false);
+            james = new Passenger("James", true);
+        }
+
+        @Nested
+        @DisplayName("When we have a regular passenger")
+        class RegularPassenger {
+
+            @Test
+            @DisplayName("Then you cannot add or remove him from a premium flight")
+            public void testPremiumFlightRegularPassenger() {
+                assertAll("Verify all conditions for a regular passenger and a premium flight",
+                        () -> assertEquals(false, premiumFlight.addPassenger(mike)),
+                        () -> assertEquals(0, premiumFlight.getPassengers().size()),
+                        () -> assertEquals(false, premiumFlight.removePassenger(mike)),
+                        () -> assertEquals(0, premiumFlight.getPassengers().size())
+                );
+            }
+        }
+
+        @Nested
+        @DisplayName("When we have a VIP passenger")
+        class VipPassenger {
+
+            @Test
+            @DisplayName("Then you can add and remove him from a premium flight")
+            public void testPremiumFlightVipPassenger() {
+                assertAll("Verify all conditions for a VIP passenger and a premium flight",
+                        () -> assertEquals(true, premiumFlight.addPassenger(james)),
+                        () -> assertEquals(1, premiumFlight.getPassengers().size()),
+                        () -> assertEquals(true, premiumFlight.removePassenger(james)),
+                        () -> assertEquals(0, premiumFlight.getPassengers().size())
+                );
+            }
+        }
+    }
 }
