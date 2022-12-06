@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ko"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Calculator.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">ch03.quality</a> &gt; <a href="index.source.html" class="el_package">ch03</a> &gt; <span class="el_source">Calculator.java</span></div><h1>Calculator.java</h1><pre class="source lang-java linenums">/*
+ * ========================================================================
+ *
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the &quot;License&quot;); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * ========================================================================
+ */
+
+package ch03;
+
+<span class="nc" id="L24">public class Calculator {</span>
+    public double add(double number1, double number2) {
+<span class="nc" id="L26">        return number1 + number2;</span>
+    }
+
+    public double sqrt(double x) {
+<span class="nc bnc" id="L30" title="All 2 branches missed.">        if (x &lt; 0) {</span>
+<span class="nc" id="L31">            throw new IllegalArgumentException(&quot;Cannot extract the square root of a negative value&quot;);</span>
+        }
+<span class="nc" id="L33">        return Math.sqrt(x);</span>
+    }
+
+    public double divide(double x, double y) {
+<span class="nc bnc" id="L37" title="All 2 branches missed.">        if (y == 0) {</span>
+<span class="nc" id="L38">            throw new ArithmeticException(&quot;Cannot divide by zero&quot;);</span>
+        }
+<span class="nc" id="L40">        return x / y;</span>
+    }
+
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.7.9.201702052155</span></div></body></html>
